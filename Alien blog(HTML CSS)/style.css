@@ -1,0 +1,145 @@
+html {
+    box-sizing: border-box;
+    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: 2px solid #A51F10;
+    margin-top: 0.3rem;
+    
+}
+
+.leftheader {
+    display: flex;
+    border: 0px solid green;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    
+}
+
+.rightheader {
+display: flex;
+border: 0px solid blue;
+flex-flow: column wrap;
+align-items: flex-start;
+justify-content: center;
+
+}
+
+.rightheader h1  {
+    border: 0px solid blue;
+    margin-bottom: 0;
+    color: #ca1e9f;
+    font-size:38px;
+}
+
+.rightheader p  {
+    border: 0px solid blue;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    border-top:2px solid #ca1e9f;
+    border-bottom:2px solid #A51F10;
+     display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    
+    
+}
+
+nav li {
+    margin: 0.5rem 1rem;
+}
+
+section  {
+    display: flex;
+    flex-flow: column wrap;
+    border-bottom:2px solid #ca1e9f;
+    padding-bottom:2rem;
+}
+
+section img {
+    border-radius: 1rem;
+    float: left;
+    margin-right: 1rem;
+}
+
+section img:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section article {
+    margin: 1rem;
+}
+
+section a {
+    color:#ca1e9f;
+}
+
+footer p {
+
+border-width: 2px;
+padding-top: 3rem;
+ margin-left: 3rem;
+}
+
+footer ul {
+    list-style-type:none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+  
+
+
+
